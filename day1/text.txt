@@ -1,0 +1,9 @@
+langchain - ai web application relationships toiri kore .
+AI -> data analyst , data science, llm, ml , prompt 
+openAI -> api key .
+virtual environment set.
+langchain - setup
+
+python package check ===> pip freeze
+
+pip install langchain
