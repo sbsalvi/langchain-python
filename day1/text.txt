@@ -10,3 +10,9 @@ langchain - setup
 python package check ===> pip freeze
 
 pip install langchain
+
+# to hide api key use python decouple 
+to use import config from decouple
+pip install python-decouple
+
+to use openAI install==> pip install langchain-openai
