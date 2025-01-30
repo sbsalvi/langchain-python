@@ -16,3 +16,7 @@ to use import config from decouple
 pip install python-decouple
 
 to use openAI install==> pip install langchain-openai
+
+# huggingface free api "mistral" to setup hosted version
+repo id ==> mistralai/Mistral-7B-Instruct-v0.3
+setup hugging face pip install langchain-huggingface
