@@ -1,0 +1,19 @@
+software dev==> web & app
+backend works==> request & response
+4 types of request :
+    get ,post,update,delete
+
+A software system is consist of CRUD operations
+    Create, read, update, delete
+
+to download django: pip install django
+
+django works with ORM(Object Relational Mapping)
+
+Django startup:
+    django-admin startproject ProjactName
+
+setting.py==> er vitore project er sob kichu setup thake, jemon stattic file, database, application er apps gula, templates thake, security related onk kichu thake, hosting related settings.
+
+to run dJango project: python manage.py runserver
+setting.py
