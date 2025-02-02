@@ -17,3 +17,14 @@ setting.py==> er vitore project er sob kichu setup thake, jemon stattic file, da
 
 to run dJango project: python manage.py runserver
 setting.py
+
+
+dtl:
+django template language
+templates e html file rakha hoy.
+settings.py te templates ta string hisebe dite hobe
+django http library te http response diye http protocal diye data pathano jay.
+
+django mvt(model view template) er upor based framework
+example link: https://media.licdn.com/dms/image/D5612AQHCvSpWQ9ZpuQ/article-cover_image-shrink_600_2000/0/1720761581067?e=2147483647&v=beta&t=IlKjKEUQwavJU7Eaxim7mkChc7PxBbkaNkqop_rkt34
+backend theke views.py er kono function theke dictionary akare kono data pass kori oitake context bola hoy
