@@ -28,3 +28,9 @@ django http library te http response diye http protocal diye data pathano jay.
 django mvt(model view template) er upor based framework
 example link: https://media.licdn.com/dms/image/D5612AQHCvSpWQ9ZpuQ/article-cover_image-shrink_600_2000/0/1720761581067?e=2147483647&v=beta&t=IlKjKEUQwavJU7Eaxim7mkChc7PxBbkaNkqop_rkt34
 backend theke views.py er kono function theke dictionary akare kono data pass kori oitake context bola hoy
+render funtion always dictionary recive kore direct value neyna
+
+django template language==> https://docs.djangoproject.com/en/5.1/ref/templates/language/
+html er vitor e python lekhar jonno use hoy dtl 
+
+django filters==> djongor kisu builtin function ja direct html e use kora jey

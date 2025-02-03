@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% comment %} <h1>{{list}}</h1>
+    <h1>{{string}}</h1>
+    <h1>{{str2}}</h1>
+    {%for num in list%}
+    <h1>{{num}}</h1>
+    {% endfor %}
+    {% comment %} {%for i in range(0,3)%}
+    <h1>{{list[i]}}</h1>
+    {% endfor %} {% endcomment %}
+    {% comment %}
+    {%for num in list%}
+    {%if num > 6 %}
+    <h1>{{num}}</h1>
+    {%endif%}
+    {% endfor %} {% endcomment %}
+    
+    <!--djongo filters-->
+
+    {{string |length}}
+    <br>
+    {{string |capfirst}}
+    <p>{{string |truncatechars:4}}</p>
+    <p>{{str2 |truncatewords:2}}</p>
+    <p>{{str3 |lower}}</p>
+    <p>{{str3 |lower |capfirst}}</p>
+    <p>{{str4 |upper}}</p>
+    
+    <!--datetime filter-->
+    
+
+</body>
+</html>
