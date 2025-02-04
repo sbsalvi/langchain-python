@@ -34,3 +34,25 @@ django template language==> https://docs.djangoproject.com/en/5.1/ref/templates/
 html er vitor e python lekhar jonno use hoy dtl 
 
 django filters==> djongor kisu builtin function ja direct html e use kora jey
+
+
+day-4
+
+djangoAPP==main project directory er under e multiple directory k APP bole
+command= django-admin startapp APP_NAME
+new app bananor por settings.py e a installed app section e add korte hoy
+
+app er vitor er files:
+migrations directory er kaj=  project er database er proti update er history thake migratios folder e
+admin.py==> app er vitor er database er  sob implementation django er bydefaultadmin pannel e add kore
+app.py==> app er sob funtionality control kore
+models.py==> app er database er design python code er maddhome lekha hoy
+tests.py==> app ta test korte help kore
+views.py==> app er funtion gular requests gular view control kore
+app er vitor urls.py manually banaya nite hoy proti app er jonno////main project directory te views.py manually banaya nite hoy
+
+
+app er fetures :
+
+apps ekber install kore nile app er vitor er templates static file alada kore initialize kora lage na
+
