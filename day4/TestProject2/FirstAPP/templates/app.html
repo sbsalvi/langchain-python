@@ -1,11 +1,21 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>inside app</h1>
-</body>
+    <img src="{%static 'image/image.png'%}" style="width: 200px;" alt="" />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut voluptas
+      reprehenderit corporis, quo similique officia quod. Vero impedit quos
+      sequi.
+    </p>
+    <button onClick="myfunction()"><a href="">spam</a></button>
+    <script src="{%static 'js/app.js'%}"></script>
+  </body>
 </html>

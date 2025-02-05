@@ -56,3 +56,7 @@ app er fetures :
 
 apps ekber install kore nile app er vitor er templates static file alada kore initialize kora lage na
 
+django static files:
+css javascripts image video
+
+main project e static file thakle oita setup kora lage settings.py e/////kintu app er vitor banaile alada kono setup kora lage na
