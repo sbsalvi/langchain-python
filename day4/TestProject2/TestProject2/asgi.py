@@ -1,5 +1,5 @@
 """
-ASGI config for Test2Project project.
+ASGI config for TestProject2 project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Test2Project.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'TestProject2.settings')
 
 application = get_asgi_application()
