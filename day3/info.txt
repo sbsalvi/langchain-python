@@ -60,3 +60,26 @@ django static files:
 css javascripts image video
 
 main project e static file thakle oita setup kora lage settings.py e/////kintu app er vitor banaile alada kono setup kora lage na
+
+
+
+github repo:
+j folder e code thakbe: joto gula jinish push korbo oi folder theke 
+oi folder taake age initialize kore nite hoy.
+command: git init
+git iniialize ekbar e kore nite hoy, first time.
+
+track kora na thakle text gula file name er text gula green color hoye thakbe, & pashe ekta u deya thakbe.
+track korar jonno command: git add .
+
+prottek ta change k kono ekta message diye chinnito kore rakhte hoy.
+commit diye ekta message dite hoy.
+command: git commit -m "learning git push"
+ripository tate code file gula rakhar jonno push kore dite hobe.
+command: git branch -M main
+git remote add origin https://github.com/Soumik-HasanSMK/Basic-Python.git
+git push -u origin main
+
+----------------------------------------------------------------
+
+django templates inhertence tends to follow DRY(don't repeat yourself) methodology.
